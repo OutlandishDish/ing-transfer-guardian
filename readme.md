@@ -13,16 +13,15 @@ A lightweight Python automation tool that reminds you of upcoming ING transfers 
 
 ## Project Structure
 ING-Guardian/
-├── src/
-│   ├── main.py
-│   ├── scheduler.py
-│   └── utils.py
+│── data_layer.py
+│── ing_guardian.py
+│── readme.md
+|___requirements.txt
 ├── Docs/
 │   └── design-brief.md
 ├── tests/
-├── README.md
-└── requirements.txt
-
+|___Data
+     |__Transactions.csv
 
 ## Installation
 
